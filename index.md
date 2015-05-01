@@ -1,45 +1,51 @@
 ---
 layout: page
 title: Hello World!
-tagline: Supporting tagline
+tagline: You have arrive at Ben's github.io page.
 ---
 {% include JB/setup %}
 
-Read [Jekyll Quick Start](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
+Well, some how you have arrived at my home page.  So let me tell you about myself.
 
-Complete usage and documentation available at: [Jekyll Bootstrap](http://jekyllbootstrap.com)
+## Who Am I
 
-## Update Author Attributes
+I am Ben Leiting, an independent software developer and father of two.  I own
+and manage Fast Stack Development, LLC.
 
-In `_config.yml` remember to specify your own data:
-    
-    title : My Blog =)
-    
-    author :
-      name : Name Lastname
-      email : blah@email.test
-      github : username
-      twitter : username
+I have been interesting in computers for as long as I can remember, dialing into
+BBS's, building computers for a local computer repair shop in high school.
 
-The theme should reference these variables whenever needed.
-    
-## Sample Posts
+I've worked at Honeywell Defense Avionics Systems where I worked on UIs and a
+simulator in C++.  I've also worked for nine years developing electronic product
+registration websites and apps, creating transactional and marketing emails for
+a company called Leader Technologies / Aviata.  I helped redesign a web survey
+engine, the web registration frameworks and helped create a brand new reporting
+system using AngularJS and InfiniDB.
 
-This blog contains sample posts which help stage pages and blog data.
-When you don't need the samples anymore just delete the `_posts/core-samples` folder.
+And now I'm trying to do my own thing.
 
-    $ rm -rf _posts/core-samples
+## What do I do
 
-Here's a sample "posts list".
+Primarily I do web programming with PHP.  I've recently used AngularJS and I
+enjoy building an application primarily with Javascript.
 
-<ul class="posts">
-  {% for post in site.posts %}
-    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
-  {% endfor %}
-</ul>
+I've built a lot of programs in perl to help analyse time series data and watch
+for outliers, to help with code deployment, to send templated emails
 
-## To-Do
+I've worked on Android applications, and that is a lot of fun.
 
-This theme is still unfinished. If you'd like to be added as a contributor, [please fork](http://github.com/dbtek/jekyll-bootstrap-3)!
+I like to play with R, postgres, and emacs in my spare time.
+
+## Other things I find interesting...
+
+Machine Learning
+
+Ansible
+
+Monetdb
+
+Literate Programming
+
+Literate DevOps
 
 
